@@ -4,8 +4,8 @@ compile:
 run: compile
 	./a.out
 	convert arrow.ppm firstPic.png
-	rm arrow.ppm
 
 clean:
+	rm arrow.ppm
 	rm firstPic.png
 	rm a.out
